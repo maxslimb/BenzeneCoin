@@ -15,10 +15,10 @@
             android:name=".receiving"
             android:exported="false" />
         <activity
-            android:name=".transaction_activity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".payment_successful"
+            android:name=".transaction_activity"
             android:exported="false" />
         <activity
             android:name=".transaction_activity_2"
@@ -27,7 +27,7 @@
             android:name=".amount_entry"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".payment_successful"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
