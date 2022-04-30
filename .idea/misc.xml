@@ -4,12 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HP/AndroidStudioProjects/BenzeneCoin/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/drawable/cancel.xml" value="0.1735" />
         <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/drawable/notification_icon.xml" value="0.1945" />
         <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/drawable/round_corner.xml" value="0.1945" />
         <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/drawable/round_corner_1.xml" value="0.1735" />
         <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/drawable/search_icon.xml" value="0.1945" />
         <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/layout/activity_amount_entry.xml" value="0.25" />
-        <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/layout/activity_payment_successful.xml" value="0.25" />
         <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/layout/activity_transaction.xml" value="0.25" />
         <entry key="..\:/Users/Prathmesh Pandey/AndroidStudioProjects/BenzeneCoinApp/app/src/main/res/layout/activity_transaction2.xml" value="0.22" />
       </map>
