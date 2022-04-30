@@ -18,7 +18,7 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <ImageView
-            android:id="@+id/back_button"
+            android:id="@+id/back_button_transaction"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginTop="10dp"
