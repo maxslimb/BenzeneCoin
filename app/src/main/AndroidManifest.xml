@@ -3,6 +3,15 @@
     package="com.example.benzenecoin">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +20,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BenzeneCoin">
+        <activity
+            android:name=".send"
+            android:exported="false" />
+        <activity
+            android:name=".receive"
+            android:exported="false" />
+        <activity
+            android:name=".nearby_api_check"
+            android:exported="false" />
         <activity
             android:name=".receiving"
             android:exported="false" />
