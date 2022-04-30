@@ -20,7 +20,6 @@
         android:id="@+id/textView_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/Poppins_Bold"
         android:layout_marginTop="15dp"
         android:textColor="@color/black"
         android:text="Send"
@@ -45,9 +44,8 @@
         android:id="@+id/benz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BENZENE COIN"
+        android:text="Benzene Coin"
         android:textSize="25dp"
-        android:fontFamily="@font/Poppins_Bold"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
         app:layout_constraintStart_toStartOf="@+id/view"
@@ -57,7 +55,6 @@
         android:id="@+id/benze"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/Poppins_Bold"
         android:text="BENZE"
         android:textSize="15dp"
         android:layout_marginLeft="15dp"
@@ -80,8 +77,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enter Coin Amount"/>
+            android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -90,7 +86,6 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/round_corner"
-        android:fontFamily="@font/Poppins_Regular"
         android:text="Continue and confirm to pay"
         android:textColor="@color/white"
         android:textSize="15dp"

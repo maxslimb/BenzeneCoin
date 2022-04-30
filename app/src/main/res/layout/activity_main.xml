@@ -51,7 +51,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:text="Your Balance"
-            android:fontFamily="@font/Poppins_Regular"
             android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/back_button" />
@@ -71,7 +70,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="28,718.78"
-            android:fontFamily="@font/Poppins_Bold"
             android:textColor="@color/black"
             android:textSize="40dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -92,7 +90,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="BENZ"
-            android:fontFamily="@font/Poppins_SemiBold"
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/view"
             app:layout_constraintEnd_toEndOf="@+id/view"
@@ -101,11 +98,10 @@
 
         <Button
             android:id="@+id/send"
-            android:layout_width="150dp"
+            android:layout_width="130dp"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
-            android:fontFamily="@font/Poppins_Regular"
             android:background="@drawable/round_corner"
             android:text="Send"
             android:textColor="@color/white"
@@ -115,11 +111,10 @@
 
         <Button
             android:id="@+id/receive"
-            android:layout_width="150dp"
+            android:layout_width="130dp"
             android:layout_height="50dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
-            android:fontFamily="@font/Poppins_Regular"
             android:background="@drawable/round_corner"
             android:text="Receive"
             android:textColor="@color/white"
@@ -155,7 +150,6 @@
         android:id="@+id/asset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/Poppins_Bold"
         android:text="Your assets"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"

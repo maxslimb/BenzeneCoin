@@ -12,16 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BenzeneCoin">
         <activity
-            android:name=".payment_successful"
+            android:name=".receiving"
             android:exported="false" />
         <activity
-            android:name=".amount_entry"
+            android:name=".transaction_activity"
+            android:exported="false" />
+        <activity
+            android:name=".payment_successful"
             android:exported="false" />
         <activity
             android:name=".transaction_activity_2"
             android:exported="false" />
         <activity
-            android:name=".transaction_activity"
+            android:name=".amount_entry"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
