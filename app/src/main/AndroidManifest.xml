@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BenzeneCoin">
         <activity
+            android:name=".buy_benzenecoin"
+            android:exported="false" />
+        <activity
             android:name=".send"
             android:exported="false" />
         <activity

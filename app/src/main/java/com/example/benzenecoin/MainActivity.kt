@@ -1,5 +1,6 @@
 package com.example.benzenecoin
 
+import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.net.wifi.WifiManager
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         val buttonClick = findViewById<Button>(R.id.send)
         val buttonClick1 = findViewById<Button>(R.id.receive)
+        val buttonClick2 = findViewById<Button>(R.id.buy_token_main)
         buttonClick.setOnClickListener {
             val intent = Intent(this, transaction_activity::class.java)
             startActivity(intent)
@@ -26,6 +28,11 @@ class MainActivity : AppCompatActivity() {
 
         buttonClick1.setOnClickListener {
             val intent = Intent(this, receiving::class.java)
+            startActivity(intent)
+        }
+
+        buttonClick2.setOnClickListener {
+            val intent = Intent(this, buy_benzenecoin::class.java)
             startActivity(intent)
         }
 
