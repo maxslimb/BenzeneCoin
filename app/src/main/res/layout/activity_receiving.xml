@@ -46,15 +46,15 @@
             android:text="Balance"
             android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/back_button" />
+            app:layout_constraintTop_toBottomOf="@+id/back_button_receiving" />
 
 
 
         <TextView
-            android:id="@+id/Balance"
+            android:id="@+id/Balance_rec"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="28,718.78"
+            android:text=""
             android:textColor="@color/black"
             android:textSize="40dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -66,8 +66,8 @@
             android:layout_height="40dp"
             android:layout_marginLeft="40dp"
             android:background="@drawable/round_corner"
-            app:layout_constraintBottom_toBottomOf="@+id/Balance"
-            app:layout_constraintStart_toEndOf="@+id/Balance"
+            app:layout_constraintBottom_toBottomOf="@+id/Balance_rec"
+            app:layout_constraintStart_toEndOf="@+id/Balance_rec"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
@@ -135,6 +135,8 @@
         android:id="@+id/nearby_lottie"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
         app:lottie_rawRes="@raw/nearby_connection"
         app:layout_constraintTop_toBottomOf="@id/instructn"
         app:layout_constraintStart_toStartOf="@id/new_view"

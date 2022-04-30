@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import com.google.android.gms.nearby.Nearby
 import com.google.android.gms.nearby.connection.*
@@ -17,7 +18,10 @@ class RecieveActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_receiving)
-
+        val sharedPreferences = getSharedPreferences("user_data", Context.MODE_PRIVATE)
+        val b = sharedPreferences.getString("balance","")
+        val Balance_rec = findViewById<TextView>(R.id.Balance_rec)
+        Balance_rec.text=b
         val buttonClick = findViewById<ImageView>(R.id.back_button_receiving)
         buttonClick.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
