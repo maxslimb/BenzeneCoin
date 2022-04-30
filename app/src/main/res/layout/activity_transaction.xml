@@ -135,6 +135,8 @@
         android:id="@+id/nearby_lottie"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
         app:lottie_rawRes="@raw/nearby_connection"
         app:layout_constraintTop_toBottomOf="@id/instructn"
         app:layout_constraintStart_toStartOf="@id/new_view"
