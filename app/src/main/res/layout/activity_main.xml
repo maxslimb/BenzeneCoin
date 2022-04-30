@@ -97,7 +97,7 @@
             app:layout_constraintTop_toTopOf="@+id/view" />
 
         <Button
-            android:id="@+id/send"
+            android:id="@+id/send_main"
             android:layout_width="130dp"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
@@ -110,7 +110,7 @@
             app:layout_constraintTop_toBottomOf="@+id/Balance" />
 
         <Button
-            android:id="@+id/receive"
+            android:id="@+id/receive_main"
             android:layout_width="130dp"
             android:layout_height="50dp"
             android:layout_marginTop="30dp"

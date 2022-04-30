@@ -20,17 +20,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BenzeneCoin">
+
         <activity
-            android:name=".send"
-            android:exported="false" />
-        <activity
-            android:name=".receive"
-            android:exported="false" />
-        <activity
-            android:name=".nearby_api_check"
-            android:exported="false" />
-        <activity
-            android:name=".receiving"
+            android:name=".RecieveActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
