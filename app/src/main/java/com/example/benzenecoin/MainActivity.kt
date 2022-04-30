@@ -16,9 +16,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-        val web3 = Web3j.build(HttpService("https://rinkeby.infura.io/v3/03dfd526311a4ce3933474b193a25238"));
-        val credential: Credentials
-
     }
 }
