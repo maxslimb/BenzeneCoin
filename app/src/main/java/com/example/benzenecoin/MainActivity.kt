@@ -3,8 +3,12 @@ package com.example.benzenecoin
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import org.web3j.crypto.Credentials
 import org.web3j.protocol.Web3j
+import org.web3j.protocol.core.DefaultBlockParameterName
+import org.web3j.protocol.core.methods.response.EthGetBalance
 import org.web3j.protocol.http.HttpService
+import org.web3j.utils.Convert
 
 
 class MainActivity : AppCompatActivity() {
@@ -14,16 +18,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val web3 = Web3j.build(HttpService("https://rinkeby.infura.io/v3/03dfd526311a4ce3933474b193a25238"));
-        try {
-            val clientVersion = web3.web3ClientVersion().sendAsync().get()
-            if (!clientVersion.hasError()) {
-                Toast.makeText(this,"Connected",Toast.LENGTH_LONG).show()
-            } else {
-                Toast.makeText(this,"Errorww",Toast.LENGTH_LONG).show()
-            }
-        } catch (e: Exception) {
-            Toast.makeText(this,"Error",Toast.LENGTH_LONG).show()
-        }
+        val credential: Credentials
 
     }
 }
