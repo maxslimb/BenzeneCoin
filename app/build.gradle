@@ -44,4 +44,5 @@ dependencies {
     implementation "androidx.cardview:cardview:1.0.0"
     def lottieVersion = "5.0.3"
     implementation "com.airbnb.android:lottie:$lottieVersion"
+    implementation 'com.google.android.material:material:<1.7.0-alpha01>'
 }
