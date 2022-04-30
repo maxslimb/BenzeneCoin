@@ -22,6 +22,9 @@
         android:theme="@style/Theme.BenzeneCoin">
 
         <activity
+            android:name=".buy_benzenecoin"
+            android:exported="false" />
+        <activity
             android:name=".RecieveActivity"
             android:exported="false" />
         <activity

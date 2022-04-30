@@ -10,6 +10,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*
@@ -34,10 +35,15 @@ class MainActivity : AppCompatActivity() {
         bt_send.setOnClickListener {
             Onlocation()
         }
-
+        val buttonClick2 = findViewById<Button>(R.id.buy_token_main)
         bt_receive.setOnClickListener {
             val intent = Intent(this, RecieveActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)
+        }
+
+        buttonClick2.setOnClickListener {
+            val intent = Intent(this, buy_benzenecoin::class.java)
             startActivity(intent)
         }
 
