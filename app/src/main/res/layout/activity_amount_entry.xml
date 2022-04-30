@@ -8,7 +8,7 @@
     android:padding="20dp">
 
     <ImageView
-        android:id="@+id/back_button"
+        android:id="@+id/back_button_amount"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="10dp"
@@ -76,13 +76,14 @@
         app:layout_constraintTop_toBottomOf="@id/view">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/amount_send"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/send"
+        android:id="@+id/send_button_amount"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/round_corner"

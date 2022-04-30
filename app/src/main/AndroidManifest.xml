@@ -28,7 +28,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".transaction_activity"
+            android:name=".SenderActivity"
             android:exported="false" />
         <activity
             android:name=".transaction_activity_2"

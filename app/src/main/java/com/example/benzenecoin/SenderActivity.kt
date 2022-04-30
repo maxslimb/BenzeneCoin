@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.ImageView
 import com.airbnb.lottie.LottieAnimationView
 
-class transaction_activity : AppCompatActivity() {
+class SenderActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_transaction)
