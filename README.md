@@ -44,3 +44,4 @@ A[Benzene Coin App] -- API  --> B((AWS EC2 Instance))
 B --> C(Smart Contract with ERC20)
 C --> B((AWS EC2 Instance)) 
 C-->D{Ethereum Blockchain}
+D-->C(Smart Contract with ERC20)
