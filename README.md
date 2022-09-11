@@ -31,7 +31,6 @@ Benzene Coin is a Cryptocurrency Platform which helps users to transfer money ea
 
  - [Kishan Patel](https://www.github.com/maxslimb) 
  - [Het Patel](https://github.com/het54) 
- - [Vishal Rajak](https://github.com/CodeBlooded-Dev) 
  - [Karan Patel](https://github.com/karanpokar)
 
 ## Flowchart
