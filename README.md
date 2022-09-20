@@ -7,7 +7,7 @@ Benzene Coin is a Cryptocurrency Platform which helps users to transfer money ea
 
 1. Easily Buy Tokens through the Android App
 
-2. Transfer Coins in OFFLINE Mode between two peers
+2. Transfer Coins in OFFLINE Mode between two users
 
 3. ERC-20 Cryptocurrency deployed on the Network 
 
