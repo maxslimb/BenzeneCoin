@@ -19,16 +19,21 @@ Benzene Coin is a Cryptocurrency Platform which helps users to transfer money ea
 2. Android, Kotlin, XML
 
 ## Implementation
-![Home Page](https://i.imgur.com/02HjMNt.jpeg)
+
+<img src="https://i.imgur.com/02HjMNt.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
 
-![Success Payment](https://i.imgur.com/QwORkAH.jpeg)
+<img src="https://i.imgur.com/J5tKfiz.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /> 
 
 
-![Benzene Coin](https://i.imgur.com/J5tKfiz.jpeg)
+
+<img src="https://i.imgur.com/QwORkAH.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /> 
 
 
-![Benzene Coin 2](https://i.imgur.com/BvS389o.jpeg)
+
+
+
+<img src="https://i.imgur.com/BvS389o.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /> 
 
 ## Contribution
 
